@@ -1,0 +1,481 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    cursor: pointer;
+    width: 70%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 150px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* border: 1px solid black; */
+    background-image: url(img-15.png);
+    background-size: contain;
+}
+.nav .img{
+    width: 95%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    /* margin-top: 20px; */
+    /* border: 1px solid red; */
+}
+.sweeg{
+    width: 22%;
+    height: 50px;
+    margin-top: 10px;
+    /* display: flex; */
+    /* border: 1px solid black; */
+}
+.sweeg img{
+    width: 75px;
+    height: 78px;
+    margin: -15px;
+}
+.sweeg h5{
+    font-weight: 600;
+    font-size: 14px;
+    margin: -45px 50px 50px;
+}
+.sweeg .a{
+    font-weight: 50;
+}
+.pro{
+    width: 5%;
+    height: 50px;
+    /* border: 1px solid blue; */
+}
+.pro img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+/* .navbottom{
+    width: 100%;
+    height: 50px;
+} */
+.search{
+    border-radius: 12px;
+    /* margin-left: 10px; */
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 95%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-color: white;
+    border: 1px solid gray;
+    padding: 6px;
+}
+.search input{
+    width: 98%;
+    padding: 8px;
+    font-size: 15px;
+    /* margin-left: 6px; */
+    border: none;
+    outline: none ;
+}
+.search img{
+    /* width: 30px;
+    height: 30px;
+    margin: 8px; */
+    width: 23px;
+    height: 23px;
+}
+.shop{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.shop h4{
+    color: rgb(67, 60, 60);
+    font-weight: 600;  
+    font-size: 15px; 
+    margin: 15px;
+}
+/* .line{
+    width: 10%;
+    height: 1px;
+    margin-top: -10px;
+    border: 0.5px solid rgb(190, 179, 179);
+} */
+.item{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+.item .box{
+    width: 108px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+}
+.item .box img:hover{
+    transition: .5s;
+    transform: scale(0.9); 
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+.item .box img{
+    width: 110px;
+    height: 112px;
+}
+.item .box h5{
+    margin: 3px;
+    font-size: 12px;
+}
+.big{
+    width: 100%;
+    height: 30px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.big h5{
+    color: orangered;
+}
+.offer{
+    width: 100%;
+    /* height: 400px; */
+    /* border: 1px solid black; */
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.b{
+    width: 12%;
+    /* height: 350px; */
+    /* border: 1px solid black; */
+    /* background-image: url(./img/offer.png); */
+}
+.b img{
+    width: 100%;
+    height: 130px;
+    border-radius: 10px;
+}
+.offer .b img:hover{
+    transition: .5s;
+    /* transform: scale(1.1); */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+.off{
+    width: 30px;
+    height: 33px;
+    background-image: url(offer_tag.png);
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-start-start-radius: 7px;
+    background-size: contain;
+}
+.off span{
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 800;
+}
+.flash{
+    display: flex;
+    align-items: center;
+}
+.flash img{
+    height: 12px;
+    width: 12px;
+    margin-top: 6px;
+}
+h6{
+    font-size: 12px;
+    color: rgb(77, 77, 77);
+    margin-left: 3px;
+    font-weight: 800;
+    margin-top: 5px;
+}
+h4{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: rgb(107, 107, 107);
+}
+p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: gray;
+    text-decoration: line-through;
+}
+h5{
+    margin-top: 2px;
+}
+.buttom{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+button{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(27,166,114);
+    font-weight: 800;
+    border: none;
+    border: 1px solid rgb(175, 175, 175);
+    background-color: white;
+}
+button:hover{
+    background-color: rgb(209, 209, 209);
+    border: none;
+}
+.line{
+    width: 98%;
+    height: 0.5px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+.in{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    /* border: 1px solid red; */
+}
+.in .a{
+    width: 5%;
+    height: 80px;
+    /* border: 1px solid black; */
+}
+.in .a img{
+    width: 30px;
+    height: 30px;
+    margin: 20px 10px;
+}
+.in .b{
+    width: 86%;
+    height: 80px;
+    /* border: 1px solid black; */
+}
+.in .b h5{
+    font-size: 11px;
+    margin-top: 15px;
+}
+.in .b h4{
+    font-size: 11px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+.in .c{
+    width: 7%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.in .c h6{
+    font-size: 13px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.in .c h6:hover{
+    color: orange;
+}
+.long{
+    width: 98%;
+    height: 1px;
+    border: 1px solid black;
+}
+.footer-1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-top: 60px;
+    background-color: #F0F0F5;
+}
+.footer-1 .box-1{
+    width: 60%;
+    height: 200px;
+    /* border: 1px solid red; */
+}
+.box-1 .for-1{
+    width: 75%;
+    margin: 40px 100px 0px;
+    /* border: 1px solid black; */
+}
+.for-1 h1{
+    font-size: 30px;
+}
+.for-2{
+    margin: 5px 100px 0px;
+}
+.for-2 img{
+    width: 120px;
+}
+.footer-1 .box-2{
+    width: 40%;
+    /* border: 1px solid red; */
+}
+.box-2 img{
+    width: 65%;
+    margin-top: -5px;
+    margin-left: 70px;
+}
+footer{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.footer{
+    width: 85%;
+    height: 530px;
+    border: 1px soid white;
+}
+.for{
+    width: 24%;
+    height: 120px;
+    margin-top: -80px;
+    /* border: 1px solid red; */
+}
+.for img{
+    width: 160px;
+    /* height: 50px; */
+}
+.for h3{
+    font-size: 18px;
+    color: gray;
+}
+.fot{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+}
+.fot .box-1{
+    width: 40%;
+    /* height: 600px; */
+    /* border: 1px solid white; */
+}
+.box-1 h2{
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.box-1 a{
+    text-decoration: none;
+}
+.box-1 h5{
+    color: gray;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 17px;
+}
+.fot .box-1 h5:hover{
+    color: white;
+}
+.fot .box{
+    width: 25%;
+    /* height: 600px; */
+    /* border: 1px solid white; */
+}
+.box a{
+    text-decoration: none;
+}
+.box h2{
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.fot .box h5{
+    color: gray;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 17px;
+}
+.fot .box h5:hover{
+    color: white;
+}
+.fot .box-2{
+    width: 20%;
+    /* height: 600px; */
+    /* border: 1px solid white; */
+}
+.box-2 a{
+    text-decoration: none;
+}
+.box-2 h2{
+    color: white;
+}
+.fot .box-2 h5{
+    color: gray;
+    margin-top: 17px;
+}
+.box-2 h5:hover{
+    color: white;
+}
+.box-2 .p{
+    margin-top: 60px;
+}
+select{
+    cursor: pointer;
+    width: 15%;
+    height: 40px;
+    /* border: none; */
+    border-radius: 10px;
+    color: gray;
+    background-color: black;
+}
+.select .h{
+    cursor: pointer;
+    width: 15%;
+    height: 40px;
+    margin-left: 188px;
+}
+.icon{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    /* border: 1px solid red; */
+}
+.c{
+    width: 15%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+.c a{
+    text-decoration: none;
+}
+.icon h3{
+    color: white;
+}
+.fpit{
+    width: 85%;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    /* border: 1px solid blue; */
+}
+.fpit a img{
+    margin-right: 8px;
+} 

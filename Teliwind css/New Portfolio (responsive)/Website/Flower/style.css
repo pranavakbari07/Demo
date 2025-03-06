@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor:pointer;
+}
+#nav{
+    width: 100%;
+    background-color:rosybrown;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+.nav-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.nav-left img{
+    width: 35px;
+    height: 40px;
+    cursor: pointer;
+}
+.nav-right{
+    width: 43%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-right a{
+    font-size: 15px;
+}
+.nav-right a:hover{
+    color: antiquewhite;
+    font-size: 18px;
+}
+.main{
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+    background:rgb(0,0,3);
+    background: linear-gradient(0deg, rgba(0,0,3,0.5551470588235294) 0%, rgba(31,22,22,0.644782913165266) 0%, rgba(252,250,250,0.5215336134453781) 100%),url(./img/bg.jpg);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(72, 63, 63);
+}
+.main h1{
+    font-family: "Great Vibes", cursive;
+    font-size: 65px;   
+    margin: 5px 0px;
+}
+.main-1{
+    width: 85%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+   width: 30%;
+   transition: 0.3s;
+}
+.box img{
+    width: 100%;
+}
+.box img:hover{
+    transform: scale(1.1);
+}
+.services{
+    width: 85%;
+    margin: 0px auto;
+    color: rgb(72, 63, 63);
+    text-align: center;
+}
+.sec{
+    width: 85%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box-1{
+    width: 23%;
+    text-align: center;
+    color: rgb(80, 76, 76);
+}
+.box-1 img{
+    width: 120px;
+    height: 120px;
+}
+.box-1 p{
+    margin: 13px 0px;
+    font-size: 13px;
+}
+.next{
+    width: 100%;
+    height: 350px;
+    background: url(./img/pink.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin: 40px 0px;
+    padding: 0px 100px;
+}
+.my{
+    width: 30%;
+    margin: 0px 60px;
+    padding: 40px;
+    text-align: center;
+    color: rgb(80, 76, 76);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(255, 255, 255);
+}
+.my h4{
+    margin: 8px 0px;
+}
+.my p{
+    margin: 30px 0px 15px;
+    font-size: 14px;
+}
+.my button{
+    padding: 8px 13px;
+    border: none;
+    background-color: rgb(219,192,190);
+    cursor: pointer;
+}
+.my button:hover{
+    background-color: rosybrown;
+    font-size: 15px;
+    font-weight: 600;
+    color: antiquewhite;
+}
+.img{
+    width: 28%;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+.news{
+    width: 85%;
+    margin: 30px auto;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.flower-1{
+    width: 31.5%;
+    height: 350px;
+    background: url(./img/A.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#B{
+    background: url(./img/B.jpg);
+    background-size: cover;
+}
+#C{
+    background: url(./img/C.jpg);
+    background-size: cover;
+}
+#D{
+    background: url(./img/D.jpg);
+    background-size: cover;
+}
+#E{
+    background: url(./img/E.jpg);
+    background-size: cover;
+}
+#F{
+    background: url(./img/F.jpg);
+    background-size: cover;
+}
+.text{
+    width: 87%;
+    height: 310px;
+    background-color: white;
+    padding: 40px 35px;
+    color: rgb(80, 76, 76);
+}
+.text h5{
+    margin: 10px 0px;
+}
+.text p{
+    margin: 50px 0px 30px;
+    line-height: 22px;
+}
+.text button{
+    padding: 8px 13px;
+    color: rgb(80, 76, 76);
+    border: 0.5px solid grey;
+    cursor: pointer;
+    background-color: transparent;
+}
+.text button:hover{
+    background-color: rosybrown;
+    color: antiquewhite;
+    border: 1px solid rosybrown;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.button button{
+    color: rgb(80, 76, 76);
+    background-color: rgb(219,192,190);
+    border: 1px solid gray;
+    padding: 10px 15px;
+}
+.button button:hover{
+    color: antiquewhite;
+    font-size: 16px;
+    background-color: rosybrown;
+}
+#footer{
+    width: 100%;
+    height: 430px;
+    background: url(./img/brides.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    width: 35%;
+    height: 350px;
+    background-color: white;
+    color: rgb(80, 76, 76);
+    padding: 40px;
+}
+.footer h2{
+    text-align: center;
+}
+.footer h4{
+    margin: 10px 0px;
+    text-align: center;
+}
+.email{
+    width: 99.2%;
+    border: 1px solid grey;
+    border-radius: 2px;
+    margin: 30px 0px 10px;
+}
+.email input{
+    padding: 8px;
+    border: none;
+}
+.footer textarea{
+    padding: 8px;
+    margin: 0px 0px 20px;
+}
+.footer button{
+    padding: 7px 15px;
+    font-size: 15px;
+    background-color: rgb(219,192,190);
+    border: 1px solid grey;
+    color: rgb(80, 76, 76);
+    cursor: pointer;
+}
+.footer button:hover{
+    background-color: rosybrown;
+    color: antiquewhite;
+    border: 1px solid rosybrown;
+}

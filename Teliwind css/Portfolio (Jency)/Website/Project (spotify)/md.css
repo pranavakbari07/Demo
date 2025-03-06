@@ -1,0 +1,494 @@
+@media (max-width:368px){
+    #left{
+        display: none;
+    }
+    nav{
+        height: 55px;
+    }
+    .center{
+        display: none;
+    }
+    .last{
+        display: none;
+    }
+    .logo i{
+        display: none;
+    }
+    .logo img{
+        display: flex;
+        width: 73%;
+    }
+    nav{
+        padding: 0;
+    }
+    #full-website{
+        padding: 0;
+    }
+    .open{
+        padding: 0 10px 0 0;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 18px;
+    }
+    .open button{
+        padding: 9px 15px;
+        border: none;
+        border-radius: 50px;
+        font-weight: 700;
+    }
+    #right{
+        width: 100%;
+        top: 16%;
+        padding: 15px;
+        border-radius: 0;
+        left: 0%;
+    }
+    .first h1{
+        font-size: 18px;
+    }
+    .first button{
+        display: none;
+    }
+    .line{
+        overflow: scroll;
+    }
+    .line::-webkit-scrollbar{
+        display: none;
+    }
+    #img{
+        border-radius: 8px;
+    }
+    .box{
+        width: 15%;
+        padding: 10px 0 0;
+    }
+    .box h4{
+        display: none;
+    }
+    .box:hover{
+        display: none;
+    }
+    .text{
+        width: 1000px;
+        height: 220px;
+        gap: 12px;
+    }
+    .box i{
+        display: none;
+    }
+    .left{
+        display: block;
+    }
+    .footer{
+        display: block;
+        padding: 0;
+    }
+    footer{
+        padding: 0;
+    }
+    ul li{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    ul li:first-child{
+        font-size: 16px;
+        margin: 25px 0 0 0;
+    }
+}
+@media (min-width:369px) and (max-width:767px){
+    #left{
+        display: none;
+    }
+    nav{
+        height: 55px;
+    }
+    .center{
+        display: none;
+    }
+    .last{
+        display: none;
+    }
+    .logo{
+        padding: 0 0 0 10px;
+    }
+    .logo img{
+        display: none;
+    }
+    nav{
+        padding: 0;
+    }
+    #full-website{
+        padding: 0;
+    }
+    .open{
+        padding: 0 10px 0 0;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 18px;
+    }
+    .open button{
+        padding: 9px 15px;
+        border: none;
+        border-radius: 50px;
+        font-weight: 700;
+    }
+    #right{
+        width: 100%;
+        top: 16%;
+        padding: 15px;
+        border-radius: 0;
+        left: 0%;
+    }
+    .first h1{
+        font-size: 18px;
+    }
+    .first button{
+        display: none;
+    }
+    .line{
+        overflow: scroll;
+    }
+    .line::-webkit-scrollbar{
+        display: none;
+    }
+    #img{
+        border-radius: 8px;
+    }
+    .box:hover{
+        display: none;
+    }
+    .box{
+        width: 15%;
+        padding: 10px 0 0;
+    }
+    .box h4{
+        display: none;
+    }
+    .text{
+        width: 1000px;
+        height: 220px;
+        gap: 12px;
+    }
+    .box i{
+        display: none;
+    }
+    .left{
+        display: block;
+    }
+    .footer{
+        display: block;
+        padding: 0;
+    }
+    footer{
+        padding: 0;
+    }
+    ul li{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    ul li:first-child{
+        font-size: 16px;
+        margin: 25px 0 0 0;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    #left{
+        display: none;
+    }
+    nav{
+        height: 55px;
+        padding: 0;
+    }
+    .center{
+        display: none;
+    }
+    .last{
+        display: none;
+    }
+    .logo{
+        padding: 0 0 0 10px;
+    }
+    .logo img{
+        display: none;
+    }
+    #full-website{
+        padding: 0;
+    }
+    .open{
+        padding: 0 10px 0 0;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 18px;
+    }
+    .open button{
+        padding: 9px 15px;
+        border: none;
+        border-radius: 50px;
+        font-weight: 700;
+    }
+    #right{
+        width: 100%;
+        top: 16%;
+        padding: 15px;
+        border-radius: 0;
+        left: 0%;
+    }
+    .first h1{
+        font-size: 18px;
+    }
+    .first button{
+        display: none;
+    }
+    .line{
+        overflow: scroll;
+    }
+    .line::-webkit-scrollbar{
+        display: none;
+    }
+    #img{
+        border-radius: 8px;
+    }
+    .box:hover{
+        display: none;
+    }
+    .box{
+        width: 15%;
+        padding: 10px 0 0;
+    }
+    .box h4{
+        display: none;
+    }
+    .text{
+        width: 1000px;
+        height: 220px;
+        gap: 12px;
+    }
+    .box i{
+        display: none;
+    }
+    .footer{
+        padding: 0;
+    }
+    footer{
+        padding: 0;
+    }
+    .right{
+        display: none;
+    }
+    .left{
+        width: 100%;
+    }
+    ul li{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    ul li:first-child{
+        font-size: 16px;
+        margin: 25px 0 0 0;
+    }
+}
+@media (min-width:992px) and (max-width:1020px){
+    #left{
+        display: none;
+    }
+    .center{
+        display: none;
+    }
+    .last{
+        display: none;
+    }
+    .logo{
+        padding: 0 0 0 10px;
+    }
+    .logo img{
+        display: none;
+    }
+    #full-website{
+        padding: 0;
+    }
+    .open{
+        padding: 0 10px 0 0;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 18px;
+    }
+    .open button{
+        padding: 9px 15px;
+        border: none;
+        border-radius: 50px;
+        font-weight: 700;
+    }
+    #right{
+        width: 100%;
+        top: 16%;
+        padding: 15px;
+        border-radius: 0;
+        left: 0%;
+    }
+    .first h1{
+        font-size: 18px;
+    }
+    .first button{
+        display: none;
+    }
+    .line{
+        overflow: scroll;
+    }
+    .line::-webkit-scrollbar{
+        display: none;
+    }
+    #img{
+        border-radius: 8px;
+    }
+    .box:hover{
+        display: none;
+    }
+    .box{
+        width: 15%;
+        padding: 10px 0 0;
+    }
+    .box h4{
+        display: none;
+    }
+    .text{
+        width: 1000px;
+        height: 220px;
+        gap: 18px;
+    }
+    .box i{
+        display: none;
+    }
+    .footer{
+        flex-wrap: block;
+        padding: 0;
+    }
+    footer{
+        padding: 0;
+    }
+    ul li{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    ul li:first-child{
+        font-size: 16px;
+        margin: 25px 0 0 0;
+    }
+}
+@media(min-width:1021px) and (max-width:1494px){
+    #left{
+        display: none;
+    }
+    nav{
+        height: 70px;
+        padding: 0;
+    }
+    .center{
+        display: none;
+    }
+    .last{
+        display: none;
+    }
+    .logo{
+        padding: 0 0 0 10px;
+    }
+    .logo img{
+        display: none;
+    }
+    #full-website{
+        padding: 0;
+        background-color: transparent;
+    }
+    .open{
+        padding: 0 10px 0 0;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 18px;
+    }
+    .open button{
+        padding: 9px 15px;
+        border: none;
+        border-radius: 50px;
+        font-weight: 700;
+    }
+    #right{
+        width: 100%;
+        top: 9%;
+        padding: 15px;
+        border-radius: 0;
+        left: 0%;
+    }
+    .first{
+        margin: 30px 0 0;
+    }
+    .first h1{
+        font-size: 18px;
+    }
+    .first button{
+        display: none;
+    }
+    .line{
+        overflow: scroll;
+    }
+    .line::-webkit-scrollbar{
+        display: none;
+    }
+    #img{
+        border-radius: 8px;
+    }
+    .box:hover{
+        display: none;
+    }
+    .box{
+        width: 15%;
+        padding: 10px 0 0;
+    }
+    .box h4{
+        display: none;
+    }
+    .text{
+        width: 1450px;
+        gap: 30px;
+    }
+    .box i{
+        display: none;
+    }
+    .footer{
+        flex-wrap: block;
+        padding: 0;
+    }
+    footer{
+        padding: 0;
+    }
+    ul li{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    ul li:first-child{
+        font-size: 16px;
+        margin: 25px 0 0 0;
+    }
+    .gredient{
+        display: none;
+    }
+}
+@media(min-width:1495px){
+    .first{
+        margin: 20px 0;
+    }
+    .library{
+        margin: 20px 0;
+    }
+    .open{
+        display: none;
+    }
+}

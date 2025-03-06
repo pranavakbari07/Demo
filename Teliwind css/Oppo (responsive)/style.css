@@ -1,0 +1,33 @@
+*{
+    font-family: sans-serif;
+}
+.ul li a:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+.get:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.app:hover{
+    transform: scale(1.08);
+    transition: all 0.1s;
+}
+.button:hover{
+    transform: scale(1.08);
+    transition: all 0.4s;
+}
+.bg{
+    background-image: url(./img/bg.webp);
+    background-size: cover;
+}
+.first:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.icon:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;   
+}

@@ -1,0 +1,361 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 65%;
+    margin: 0 auto;
+    padding-inline: 10px;
+}
+.nav{
+    width: 100%;
+    background-image: url(./img/color.png);
+    background-size: contain;
+    padding: 15px 5px;
+}
+.up{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+}
+.button{
+    background-color: rgb(241,87,0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 13px;
+    font-weight: bolder;
+    text-align: center;
+}
+.text{
+    margin-left: 8px;
+    margin-top: 5px;
+}
+.text h1{
+   font-size: 15px;
+}
+.text h5{
+    font-size: 13px;
+    font-weight: 400;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
+    height: 40px;
+}
+.down{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid grey;
+    padding: 6px;
+}
+.down input{
+    width: 97%;
+    font-size: 15px;
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+.down img{
+    width: 23px;
+    height: 23px;
+}
+.main h5{
+    font-size:13px;
+    letter-spacing: 2px;
+    margin:10px;
+}
+.box{
+    margin-top: 20px;    
+}
+.box-1{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    transition : 0.3s;
+}
+.box-1 .a img:hover{
+    transform : scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.a{
+    height: 160px;
+    text-align: center;
+}
+.a img{
+    height: 115px;
+    border-radius: 10px;
+}
+.a h4{
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 5px;
+    color: black;
+}
+h2{
+    font-size: 18px;
+    margin: 20px 10px;
+}
+.offer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.b{
+    width: 12%;
+    margin-bottom: 30px;
+    transition : 0.3s;
+}
+.b img{
+    width: 100%;
+    height: 130px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.b img:hover{
+    transform : scale(1.1);
+}
+.off{
+    width: 30px;
+    height: 33px;
+    background-image: url(./img/offer.png);
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-start-start-radius: 7px;
+    background-size: contain;
+}
+.off span{
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 800;
+}
+.flash{
+    display: flex;
+    align-items: center;
+}
+.flash img{
+    height: 15px;
+    width: 15px;
+    box-shadow: none;
+}
+h6{
+    font-size: 12px;
+    color: rgb(77, 77, 77);
+    margin-left: 3px;
+    font-weight: 800;
+    margin-top: 5px;
+}
+h4{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: rgb(107, 107, 107);
+}
+p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: gray;
+    text-decoration: line-through;
+}
+h5{
+    margin-top: 5px;
+}
+.buttom{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+button{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(27,166,114);
+    font-weight: 800;
+    border: none;
+    border: 1px solid rgb(175, 175, 175);
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+button:hover{
+    background-color: rgb(209, 209, 209);
+    border: none;
+}
+.hr{
+    width: 100%;
+    height: 1px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 1px solid rgb(178, 178, 178);
+}
+.partnership{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.right-1{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.img img{
+    width: 30px;
+    height: 30px;
+}
+.text-1{
+    width: 70%;
+    margin-left: 5px;
+}
+.text-1 h4{
+    font-size: 10px;
+    color: grey;
+    margin: 3px;
+    font-weight: 800;
+}
+h3{
+    font-size: 10px;
+    color: rgb(177, 177, 177);
+    margin: 3px;
+    font-weight: 500;
+}
+.left-1{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiggy{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(240,240,245);
+    display: flex;
+    margin-top: 40px;
+}
+.right-2{
+    width: 60%;
+}
+.text-2{
+    width: 75%;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 40px 100px 0px;
+}
+.google{
+    margin: 5px 100px 0px;
+}
+.google img{
+    width: 120px; 
+}
+.left-2{
+    width: 40%;
+}
+.left-2 img{
+    width: 70%;
+    margin-left: 30px;
+}
+footer{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(2,6,12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    width: 85%;
+    height: 700px;
+    margin-top: 50px;
+}
+.logo{
+    width: 23%;
+}
+.pic img{
+    width: 180px;
+    height: 55px;
+}
+.pic h3{
+    color: gray;
+    font-weight: 600;
+    font-size: 15px;
+}
+.number{
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.number-1{
+    width: 35%;
+}
+select{
+    padding: 5px 12px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin: 25px 0px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.h2{
+    font-size: 20px;
+    color: white;
+    margin: 0px;
+}
+.h5{
+    color: grey;
+    margin-top: 15px;
+    font-size: 16px;
+    transition: 0.1s;
+}
+.h5:hover{
+    color: rgb(205, 205, 205);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.h3{
+    font-size: 20px;
+    color: white;
+    margin-top: 70px;
+    margin-left: 0px;
+}
+.h4{
+    font-size: 17px;
+    color: white;
+}
+.number-2{
+    width: 20%;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.icon{
+    width: 20%;
+}
+.icon img{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}

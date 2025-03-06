@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Mart</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <!--full website-->
+    <div class="px-28 max-2xl:px-10 max-sm:px-5">
+        <!--nav-1-->
+        <div class="h-10 flex justify-between items-center max-sm:hidden">
+            <div>
+                <h5 class="text-sm text-[#666666]">Welcome to worldwide Megamart!</h5>
+            </div>
+            <div>
+                <ul class="flex items-center text-sm text-[#666666]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 1024 1024"><path fill="#008ECC" d="M800 416a288 288 0 1 0-576 0c0 118.144 94.528 272.128 288 456.576C705.472 688.128 800 534.144 800 416M512 960C277.312 746.688 160 565.312 160 416a352 352 0 0 1 704 0c0 149.312-117.312 330.688-352 544"/><path fill="#008ECC" d="M512 512a96 96 0 1 0 0-192a96 96 0 0 0 0 192m0 64a160 160 0 1 1 0-320a160 160 0 0 1 0 320"/></svg>
+                    <li class="ml-1 max-md:hidden">Deliver to <span class="font-semibold">423651</span></li>
+                    <span class="w-[1px] bg-[#D6D6D6] max-md:hidden h-4 ml-4"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ml-4" width="20" height="20" viewBox="0 0 24 24"><g fill="none" stroke="#008ECC" stroke-linecap="round" stroke-width="1.5"><path stroke-linejoin="round" stroke-miterlimit="1.5" d="M8 19a2 2 0 1 0 0-4a2 2 0 0 0 0 4m10 0a2 2 0 1 0 0-4a2 2 0 0 0 0 4"/><path d="M10.05 17H15V6.6a.6.6 0 0 0-.6-.6H1m4.65 11H3.6a.6.6 0 0 1-.6-.6v-4.9"/><path stroke-linejoin="round" d="M2 9h4"/><path d="M15 9h5.61a.6.6 0 0 1 .548.356l1.79 4.028a.6.6 0 0 1 .052.243V16.4a.6.6 0 0 1-.6.6h-1.9M15 17h1"/></g></svg>
+                    <li class="ml-2 max-md:hidden">Track your order</li>
+                    <span class="w-[1px] bg-[#D6D6D6] max-md:hidden h-4 ml-4"></span>
+                    <img src="./img/Discount.png" alt="" class="w-5 ml-4">
+                    <li class="ml-2 max-md:hidden">All Offers</li>
+                </ul>
+            </div>
+        </div>
+        <!--nav-1-->
+
+        <!--nav-->
+        <div class="h-24 flex items-center justify-between max-sm:mt-[-20px]">
+            <div class="flex items-center gap-5">
+                <svg xmlns="http://www.w3.org/2000/svg" class="max-lg:hidden" width="40" height="40" viewBox="0 0 24 24"><path fill="none" stroke="#008ECC" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6h18M3 12h12M3 18h6"/></svg>
+                <img src="./img/MegaMart.png" alt="" class="w-[138px] h-[28px]">
+            </div>
+            <div class="flex gap-10 items-center">
+                <div class="w-[507px] max-sm:w-5 h-[48px] max-md:w-50 bg-[#F3F9FB] px-4 flex items-center justify-between max-md:hidden">
+                    <div class="flex gap-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="max-lg:ml-122 max-md:ml-45 max-sm:ml-5" width="20" height="20" viewBox="0 0 24 24"><path fill="none" stroke="#008ECC" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m21 21l-4.343-4.343m0 0A8 8 0 1 0 5.343 5.343a8 8 0 0 0 11.314 11.314"/></svg>
+                        <input type="search" placeholder="Search essentials, groceries and more..." class="max-lg:hidden 80 text-sm text-gary-700">
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="max-lg:hidden" width="24" height="24" viewBox="0 0 1024 1024"><path fill="#008ECC" d="M912 192H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8m0 284H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8m0 284H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8M104 228a56 56 0 1 0 112 0a56 56 0 1 0-112 0m0 284a56 56 0 1 0 112 0a56 56 0 1 0-112 0m0 284a56 56 0 1 0 112 0a56 56 0 1 0-112 0"/></svg>
+                </div>
+                <ul class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 1024 1024"><path fill="#008ECC" d="M512 512a192 192 0 1 0 0-384a192 192 0 0 0 0 384m0 64a256 256 0 1 1 0-512a256 256 0 0 1 0 512m320 320v-96a96 96 0 0 0-96-96H288a96 96 0 0 0-96 96v96a32 32 0 1 1-64 0v-96a160 160 0 0 1 160-160h448a160 160 0 0 1 160 160v96a32 32 0 1 1-64 0"/></svg>
+                    <li class="text-base font-bold text-gray-500 ml-2 max-lg:hidden">Sign Up/Sign In</li>
+                    <span class="w-[1px] bg-[#D6D6D6] h-5 ml-4 max-lg:hidden"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ml-4" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="#008ECC" stroke-width="1.5"><path stroke-linecap="round" d="m2 3l.265.088c1.32.44 1.98.66 2.357 1.184S5 5.492 5 6.883V9.5c0 2.828 0 4.243.879 5.121c.878.879 2.293.879 5.121.879h8"/><path d="M7.5 18a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3Zm9 0a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3Z"/><path stroke-linecap="round" d="M11 9H8"/><path d="M5 6h11.45c2.055 0 3.083 0 3.528.674c.444.675.04 1.619-.77 3.508l-.429 1c-.378.882-.567 1.322-.942 1.57c-.376.248-.856.248-1.815.248H5"/></g></svg>
+                    <li class="text-base font-bold text-gray-500 ml-2 max-lg:hidden">Cart</li>
+                </ul>
+            </div>
+        </div>
+        <!--nav-->
+
+        <!--menu-->
+        <div class="flex justify-between">
+            <div class="flex items-end gap-2 text-sm text-white rounded-[18px] bg-[#008ECC] py-[8px] px-[14px] max-sm:px-[10px] max-sm:py-[6px]">
+                Groceries
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="#fff" d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z"/></g></svg>
+            </div>
+            <div class="flex items-end gap-2 text-sm py-[8px] px-[14px] bg-[#f5f5f5] rounded-3xl max-md:hidden">
+                Premium Fruits
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="#008ECC" d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z"/></g></svg>
+            </div>
+            <div class="flex items-end gap-2 text-sm py-[8px] px-[14px] bg-[#f5f5f5] rounded-3xl  max-sm:hidden">
+                Home & Kitchen
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="#008ECC" d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z"/></g></svg>
+            </div>
+            <div class="flex items-end gap-2 text-sm py-[8px] px-[14px] bg-[#f5f5f5] rounded-3xl max-sm:px-[8px]">
+                Fashion
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="#008ECC" d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z"/></g></svg>
+            </div>
+            <div class="flex items-end gap-2 text-sm py-[8px] px-[14px] bg-[#f5f5f5] rounded-3xl max-md:hidden">
+                Electronics
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="#008ECC" d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z"/></g></svg>
+            </div>
+            <div class="flex items-end gap-2 text-sm py-[6px] px-[14px] py-[8px] px-[14px] bg-[#f5f5f5] rounded-3xl max-sm:px-[8px]">
+                Beauty
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="#008ECC" d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z"/></g></svg>
+            </div>
+            <div class="flex items-end gap-2 text-sm py-[8px] px-[14px] bg-[#f5f5f5] rounded-3xl  max-lg:hidden">
+                Home Improvement
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="#008ECC" d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z"/></g></svg>
+            </div>
+            <div class="flex items-end gap-2 text-sm py-[8px] px-[14px] bg-[#f5f5f5] rounded-3xl max-lg:hidden">
+                Sports, Toys & Luggage
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="#008ECC" d="M12.707 15.707a1 1 0 0 1-1.414 0L5.636 10.05A1 1 0 1 1 7.05 8.636l4.95 4.95l4.95-4.95a1 1 0 0 1 1.414 1.414z"/></g></svg>
+            </div>
+        </div>
+        <!--menu-->
+
+        <!--img-->
+        <div class="mt-16 raletive max-md:hidden">
+            <img src="./img/Group 21.png" alt="" class="max-2xl:hidden none absolute w-[86px] h-[86px] top-85 left-18">
+            <img src="./img/Group 22.png" alt="" class="max-2xl:hidden none absolute w-[86px] h-[86px] top-85 left-344">
+            <div class="absolute text-white left-55 top-68 max-2xl:left-30 max-lg:left-20 max-lg:top-64">
+                <h2 class="text-3xl font-semibold max-lg:text-xl">Best Deal Online on smart watches</h2>
+                <h1 class="text-6xl mt-2 font-bold max-lg:text-5xl">SMART WEARABLE.</h1>
+                <h2 class="text-3xl font-semibold mt-2 max-lg:text-lg">Up to 80% OFF</h2>
+                <div class="flex justify-between mt-15 w-[114px] max-lg:mt-7 max-lg:w-[80px]">
+                    <div class="w-6 h-2 bg-white rounded-full max-lg:w-4 max-lg:h-1"></div>
+                    <div class="w-2 h-2 bg-white rounded-full max-lg:w-1 max-lg:h-1"></div>
+                    <div class="w-2 h-2 bg-white rounded-full max-lg:w-1 max-lg:h-1"></div>
+                    <div class="w-2 h-2 bg-white rounded-full max-lg:w-1 max-lg:h-1"></div>
+                    <div class="w-2 h-2 bg-white rounded-full max-lg:w-1 max-lg:h-1"></div>
+                    <div class="w-2 h-2 bg-white rounded-full max-lg:w-1 max-lg:h-1"></div>
+                    <div class="w-2 h-2 bg-white rounded-full max-lg:w-1 max-lg:h-1"></div>
+                </div>
+            </div>
+            <img src="./img/bg.jpg" alt="" class="rounded-2xl max-2xl:w-[1496px]">
+        </div>
+        <!--img-->
+
+        <!--grab-->
+         <div class="my-30 max-2xl:my-25 max-md:my-10">
+            <div class="flex items-center justify-between">
+                <h2 class="font-bold text-gray-600 text-2xl max-sm:text-sm">Grab the best deal on <span class="text-[#008ECC]">Smartphones</span></h2>
+                <div class="flex items-end gap-1 text-md max-sm:hidden">
+                    View All
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="#008ECC" d="M15.707 11.293a1 1 0 0 1 0 1.414l-5.657 5.657a1 1 0 1 1-1.414-1.414l4.95-4.95l-4.95-4.95a1 1 0 0 1 1.414-1.414z"/></g></svg>
+                </div>
+            </div>
+            <div class="w-100 h-1 bg-[#008ECC] mt-4 max-sm:w-58"></div>
+            <div class="mt-10 flex justify-between max-sm:justify-center">
+                <div class="w-60 border-2 border-gray-300 rounded-2xl relative max-2xl:w-65 max-xl:w-55 max-lg:w-39">
+                    <div class="w-[51px] text-center flex items-center absolute right-0 rounded-tr-2xl rounded-bl-2xl h-[53px] max-lg:h-[45px] max-lg:w-[45px] bg-[#008ECC] text-white font-semibold text-sm">56% OFF</div>
+                    <img src="./img/image 3.png" class="w-23 mt-2 ml-20 max-2xl:ml-13 max-2xl:mt-3 max-lg:w-20 max-lg:ml-8" alt="">
+                    <h1 class="ml-4 mt-13 font-semibold text-md text[#222222] max-xl:mt-8 max-lg:mt-7">Galaxy S22 Ultra</h1>
+                    <h2 class="ml-4 text-[#222222] font-bold text-md mt-1">₹32999 <s class="font-normal ml-2">₹74999</s></h2>
+                    <h3 class="ml-4 mt-3 mb-3 font-semibold text-[#249B3E]">Save - ₹32999</h3>
+                </div>
+                <div class="w-60 border-1 border-blue-400 border-2 border-blue-400 shadow-2xl rounded-2xl relative max-2xl:w-65 max-xl:w-55 max-lg:w-39  max-sm:hidden">
+                    <div class="w-[51px] text-center flex items-center absolute right-0 rounded-tr-2xl rounded-bl-2xl h-[53px] max-lg:h-[45px] max-lg:w-[45px] bg-[#008ECC] text-white font-semibold text-sm">56% OFF</div>
+                    <img src="./img/image 3 (1).png" class="w-35 ml-9 max-2xl:ml-7 max-2xl:mt-2 max-lg:w-31 max-lg:mt-[-1px]" alt="">
+                    <h1 class="ml-4 mt-9 font-semibold text-md text[#222222] max-xl:mt-5 max-xl:mt-0 max-lg:mt-5">Galaxy S22 Ultra</h1>
+                    <h2 class="ml-4 text-[#222222] font-bold text-md mt-1">₹32999 <s class="font-normal ml-2">₹74999</s></h2>
+                    <h3 class="ml-4 mt-3 mb-3 font-semibold text-[#249B3E]">Save - ₹32999</h3>
+                </div>
+                <div class="w-60 border-2 border-gray-300 rounded-2xl relative max-2xl:w-65 max-xl:w-55 max-lg:w-39  max-sm:hidden">
+                    <div class="w-[51px] text-center flex items-center absolute right-0 rounded-tr-2xl rounded-bl-2xl h-[53px] max-lg:h-[45px] max-lg:w-[45px] bg-[#008ECC] text-white font-semibold text-sm">56% OFF</div>
+                    <img src="./img/image 3 (2).png" class="w-38 ml-9 max-2xl:ml-6 max-lg:w-34 max-lg:mt-[-7px] max-lg:ml-1" alt="">
+                    <h1 class="ml-4 mt-7 font-semibold text-md text[#222222] max-xl:mt-5 max-lg:mt-5">Galaxy S22 Ultra</h1>
+                    <h2 class="ml-4 text-[#222222] font-bold text-md mt-1">₹32999 <s class="font-normal ml-2">₹74999</s></h2>
+                    <h3 class="ml-4 mt-3 mb-3 font-semibold text-[#249B3E]">Save - ₹32999</h3>
+                </div>
+                <div class="w-60 border-2 border-gray-300 rounded-2xl relative max-2xl:w-65 max-xl:w-55 max-lg:w-39 max-md:hidden">
+                    <div class="w-[51px] text-center flex items-center absolute right-0 rounded-tr-2xl rounded-bl-2xl h-[53px] max-lg:h-[45px] max-lg:w-[45px] bg-[#008ECC] text-white font-semibold text-sm">56% OFF</div>
+                    <img src="./img//image 3 (3).png" class="w-41 ml-9 max-2xl:ml-5 max-lg:w-35 max-lg:mt-[-5px] max-lg:ml-2" alt="">
+                    <h1 class="ml-4 mt-6 font-semibold text-md text[#222222] max-xl:mt-5 max-lg:mt-6">Galaxy S22 Ultra</h1>
+                    <h2 class="ml-4 text-[#222222] font-bold text-md mt-1">₹32999 <s class="font-normal ml-2">₹74999</s></h2>
+                    <h3 class="ml-4 mt-3 mb-3 font-semibold text-[#249B3E]">Save - ₹32999</h3>
+                </div>
+                <div class="w-60 border-2 border-gray-300 rounded-2xl relative max-2xl:w-65 max-xl:w-55 max-lg:w-39 max-md:hidden">
+                    <div class="w-[51px] text-center flex items-center absolute right-0 rounded-tr-2xl rounded-bl-2xl h-[53px] max-lg:h-[45px] max-lg:w-[45px] bg-[#008ECC] text-white font-semibold text-sm">56% OFF</div>
+                    <img src="./img/image 3 (5).png" class="w-40 ml-8 mt-[-25px] max-2xl:ml-5 max-lg:w-32" alt="">
+                    <h1 class="ml-4 font-semibold text-md text[#222222] max-xl:mt-[-8px] max-lg:mt-3">Galaxy S22 Ultra</h1>
+                    <h2 class="ml-4 text-[#222222] font-bold text-md mt-1">₹32999 <s class="font-normal ml-2">₹74999</s></h2>
+                    <h3 class="ml-4 mt-3 mb-3 font-semibold text-[#249B3E]">Save - ₹32999</h3>
+                </div>
+            </div>
+        </div>
+        <!--grab-->
+        
+        <!--Shop-->
+        <div class="my-36 max-2xl:my-25 max-md:my-10">
+            <div class="flex items-center justify-between">
+                <h2 class="font-bold text-gray-600 text-2xl max-sm:text-sm">Shop From <span class="text-[#008ECC]">Top Categories</span></h2>
+                <div class="flex items-end gap-1 text-md max-sm:hidden">
+                    View All
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="#008ECC" d="M15.707 11.293a1 1 0 0 1 0 1.414l-5.657 5.657a1 1 0 1 1-1.414-1.414l4.95-4.95l-4.95-4.95a1 1 0 0 1 1.414-1.414z"/></g></svg>
+                </div>
+            </div>
+            <div class="w-74 h-1 bg-[#008ECC] mt-4 max-sm:w-43"></div>
+            <div class="mt-10 flex justify-between">
+                <div class="w-[132px] h-[172px] text-center">
+                    <div class="w-[132px] h-[132px] bg-[#f5f5f5] max-lg:w-[100px] max-lg:h-[100px] border-2 border-blue-400 flex justify-center items-center rounded-full mb-3">
+                        <img src="./img/image 3.png" alt="" class="w-15 max-lg:w-9">
+                    </div>
+                    Mobile
+                </div>
+                <div class="w-[132px] h-[172px] text-center">
+                    <div class="w-[132px] h-[132px] bg-[#f5f5f5] max-lg:w-[100px] max-lg:h-[100px] flex justify-center items-center rounded-full mb-3">
+                        <img src="./img/image 3 (6).png" alt="" class="w-15">
+                    </div>
+                    Cosmetics
+                </div>
+                <div class="w-[132px] h-[172px] text-center max-sm:hidden">
+                    <div class="w-[132px] h-[132px] max-lg:w-[100px] max-lg:h-[100px] flex justify-center items-center rounded-full mb-3">
+                        <img src="./img/Ellipse 41.png" alt="" class="w-30">
+                    </div>
+                    Electronics
+                </div>
+                <div class="w-[132px] h-[172px] text-center max-sm:hidden">
+                    <div class="w-[132px] h-[132px] max-lg:w-[100px] max-lg:h-[100px] flex justify-center items-center rounded-full mb-3">
+                        <img src="./img/image 4.png" alt="" class="w-30">
+                    </div>
+                    Furniture
+                </div>
+                <div class="w-[132px] h-[172px] text-center max-sm:hidden">
+                    <div class="w-[132px] h-[132px] bg-[#f5f5f5] max-lg:w-[100px] max-lg:h-[100px] flex justify-center items-center rounded-full mb-3">
+                        <img src="./img/image 5.png" alt="" class="w-20">
+                    </div>
+                    Watches
+                </div>
+                <div class="w-[132px] h-[172px] text-center max-md:hidden">
+                    <div class="w-[132px] h-[132px] max-lg:w-[100px] max-lg:h-[100px] flex justify-center items-center rounded-full mb-3">
+                        <img src="./img/image 6.png" alt="" class="w-30">
+                    </div>
+                    Decor
+                </div>
+                <div class="w-[132px] h-[172px] text-center max-md:hidden">
+                    <div class="w-[132px] h-[132px] max-lg:w-[100px] max-lg:h-[100px] flex justify-center items-center rounded-full mb-3">
+                        <img src="./img/image 7.png" alt="" class="w-30">
+                    </div>
+                    Accessories
+                </div>
+            </div>
+        </div>
+        <!--Shop-->
+        
+        <!--Top-->
+        <div class="my-36 max-2xl:my-25 max-md:my-10">
+            <div class="flex items-center justify-between">
+                <h2 class="font-bold text-gray-600 text-2xl max-sm:text-sm">Top <span class="text-[#008ECC]">Electronics Brands</span></h2>
+                <div class="flex items-end gap-1 text-md max-sm:gap-0 max-sm:hidden">
+                    View All
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="#008ECC" d="M15.707 11.293a1 1 0 0 1 0 1.414l-5.657 5.657a1 1 0 1 1-1.414-1.414l4.95-4.95l-4.95-4.95a1 1 0 0 1 1.414-1.414z"/></g></svg>
+                </div>
+            </div>
+            <div class="w-63 h-1 bg-[#008ECC] mt-4 max-sm:w-37"></div>
+            <div class="mt-10 flex justify-between">
+                <img src="./img/Group 51.png" alt="" class="w-105 max-2xl:w-115 max-xl:w-90 max-lg:w-66 max-md:w-62">
+                <img src="./img/Group 50.png" alt="" class="w-105 max-2xl:w-115 max-xl:w-90 max-lg:w-66 max-md:w-62 max-sm:hidden">
+                <img src="./img/Group 52.png" alt="" class="w-105 max-2xl:w-115 max-xl:w-90 max-lg:w-66 max-md:hidden">
+            </div>
+            <div class="flex justify-center">
+                <div class="flex justify-between mt-10 w-30 max-sm:w-15">
+                    <div class="w-7 h-2 bg-[#008ECC] rounded-full max-sm:w-3 max-sm:h-1"></div>
+                    <div class="w-2 h-2 bg-[#D6D6D6] rounded-full max-sm:w-1 max-sm:h-1"></div>
+                    <div class="w-2 h-2 bg-[#D6D6D6] rounded-full max-sm:w-1 max-sm:h-1"></div>
+                    <div class="w-2 h-2 bg-[#D6D6D6] rounded-full max-sm:w-1 max-sm:h-1"></div>
+                    <div class="w-2 h-2 bg-[#D6D6D6] rounded-full max-sm:w-1 max-sm:h-1"></div>
+                    <div class="w-2 h-2 bg-[#D6D6D6] rounded-full max-sm:w-1 max-sm:h-1"></div>
+                    <div class="w-2 h-2 bg-[#D6D6D6] rounded-full max-sm:w-1 max-sm:h-1"></div>
+                </div>
+            </div>
+        </div>
+        <!--Top-->
+        
+        <!--Daily-->
+        <div class="my-36 max-2xl:my-25 max-md:my-10">
+            <div class="flex items-center justify-between">
+                <h2 class="font-bold text-gray-600 text-2xl max-sm:text-sm">Daily <span class="text-[#008ECC]">Essentials</span></h2>
+                <div class="flex items-end gap-1 max-sm:gap-0 text-md max-sm:hidden">
+                    View All
+                    <svg xmlns="http://www.w3.org/2000/svg" class="max-sm:w-10" width="22" height="22" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="#008ECC" d="M15.707 11.293a1 1 0 0 1 0 1.414l-5.657 5.657a1 1 0 1 1-1.414-1.414l4.95-4.95l-4.95-4.95a1 1 0 0 1 1.414-1.414z"/></g></svg>
+                </div>
+            </div>
+            <div class="w-43 h-1 bg-[#008ECC] mt-4 max-sm:w-25"></div>
+            <div class="mt-10 flex justify-between">
+                <div class="text-center max-lg:text-start">
+                    <div class="w-[187px] h-[187px] bg-[#f5f5f5] max-lg:w-[100px] max-lg:h-[100px] rounded-2xl border-2 border-blue-400 flex justify-center items-center">
+                        <img src="./img/41624-7-groceries-hd-download-hd-png 1.png" alt="">
+                    </div>
+                    <h6 class="text-md font-[600] text-gray-600 mt-5 max-lg:text-sm">Daily Essentials</h6>
+                    <h2 class="text-xl font-bold max-lg:text-sm max-lg:mt-1">UP to 50% OFF</h2>
+                </div>
+                <div class="text-center max-md:hidden">
+                    <div class="w-[187px] h-[187px] bg-[#f5f5f5] max-lg:w-[100px] max-lg:h-[100px] rounded-2xl flex justify-center items-center">
+                        <img src="./img/54018-9-grocery-free-hq-image 2.png" alt="" class="w-35">
+                    </div>
+                    <h6 class="text-md font-[600] text-gray-600 mt-5 max-lg:text-sm">Vegitables</h6>
+                    <h2 class="text-xl font-bold max-lg:text-sm max-lg:mt-1">UP to 50% OFF</h2>
+                </div>
+                <div class="text-center max-md:hidden">
+                    <div class="w-[187px] h-[187px] bg-[#f5f5f5] max-lg:w-[100px] max-lg:h-[100px] rounded-2xl flex justify-center items-center">
+                        <img src="./img/pngegg 1.png" alt="" class="w-40">
+                    </div>
+                    <h6 class="text-md font-[600] text-gray-600 mt-5 max-lg:text-sm">Fruits</h6>
+                    <h2 class="text-xl font-bold max-lg:text-sm max-lg:mt-1">UP to 50% OFF</h2>
+                </div>
+                <div class="text-center">
+                    <div class="w-[187px] h-[187px] bg-[#f5f5f5] max-lg:w-[100px] max-lg:h-[100px] rounded-2xl flex justify-center items-center">
+                        <img src="./img/23410-4-strawberry-photo 1.png" alt="" class="w-43">
+                    </div>
+                    <h6 class="text-md font-[600] text-gray-600 mt-5 max-lg:text-sm">Strowberry</h6>
+                    <h2 class="text-xl font-bold max-lg:text-sm max-lg:mt-1">UP to 50% OFF</h2>
+                </div>
+                <div class="text-center max-sm:hidden">
+                    <div class="w-[187px] h-[187px] bg-[#f5f5f5] max-lg:w-[100px] max-lg:h-[100px] rounded-2xl flex justify-center items-center">
+                        <img src="./img/22136-3-mango-fruit 1.png" alt="" class="w-35 max-lg:w-22">
+                    </div>
+                    <h6 class="text-md font-[600] text-gray-600 mt-5 max-lg:text-sm">Mango</h6>
+                    <h2 class="text-xl font-bold max-lg:text-sm max-lg:mt-1">UP to 50% OFF</h2>
+                </div>
+                <div class="text-center max-sm:hidden">
+                    <div class="w-[187px] h-[187px] bg-[#f5f5f5] max-lg:w-[100px] max-lg:h-[100px] rounded-2xl flex justify-center items-center">
+                        <img src="./img/35763-7-cherry-fruit-file 1.png" alt="" class="w-32 max-lg:w-23">
+                    </div>
+                    <h6 class="text-md font-[600] text-gray-600 mt-5 max-lg:text-sm">Cherry</h6>
+                    <h2 class="text-xl font-bold max-lg:text-sm max-lg:mt-1">UP to 50% OFF</h2>
+                </div>
+            </div>
+        </div>
+        <!--Daily-->
+    </div>
+    <!--full website-->
+    
+    <!--footer-->
+    <div class="relative text-white">
+    <img src="./img/footer.jpg" alt="" class="max-lg:h-110 max-md:h-300">
+    <div class="absolute top-20 left-30 max-2xl:left-13 flex max-md:flex-col gap-40 max-lg:top-10 max-lg:gap-10">
+        <div>
+            <img src="./img/footer mega.png" alt="" class="w-55 max-sm:w-40">
+            <h2 class="font-semibold text-xl mt-9">Contact Us</h2>
+            <div class="flex gap-2 mt-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#fff" d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01m-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18l-3.12.82l.83-3.04l-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24c2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23m4.52-6.16c-.25-.12-1.47-.72-1.69-.81c-.23-.08-.39-.12-.56.12c-.17.25-.64.81-.78.97c-.14.17-.29.19-.54.06c-.25-.12-1.05-.39-1.99-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.14-.25-.02-.38.11-.51c.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31c-.22.25-.86.85-.86 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.23 3.74c.59.26 1.05.41 1.41.52c.59.19 1.13.16 1.56.1c.48-.07 1.47-.6 1.67-1.18c.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28"/></svg>
+                <div>
+                    <h2>Whats App</h2>
+                    <h3>+1 202-918-2132</h3>
+                </div>
+            </div>
+            <div class="flex gap-2 mt-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 256 256"><path fill="#fff" d="M146.2 46.45a6 6 0 0 1 7.35-4.25a84.24 84.24 0 0 1 60.25 60.25a6 6 0 0 1-4.25 7.35a6 6 0 0 1-1.55.2a6 6 0 0 1-5.8-4.45a72.34 72.34 0 0 0-51.75-51.75a6 6 0 0 1-4.25-7.35m-3.75 39.35C157 89.68 166.32 99 170.2 113.55A6 6 0 0 0 176 118a6 6 0 0 0 1.55-.2a6 6 0 0 0 4.25-7.35c-5-18.71-17.54-31.25-36.25-36.25a6 6 0 1 0-3.1 11.6m79.44 97A54.25 54.25 0 0 1 168 230C89.7 230 26 166.3 26 88a54.25 54.25 0 0 1 47.17-53.89a14 14 0 0 1 14.56 8.39l21.1 47.1a14 14 0 0 1-1.12 13.28a6 6 0 0 1-.42.57l-21.07 25.06a1.89 1.89 0 0 0 0 1.67c7.66 15.68 24.1 32 40 39.65a1.88 1.88 0 0 0 1.68-.06l24.69-21a5 5 0 0 1 .56-.42a14 14 0 0 1 13.28-1.22l47.24 21.17a14 14 0 0 1 8.22 14.53ZM210 181.32a2 2 0 0 0-1.21-2l-47.25-21.17a1.92 1.92 0 0 0-1.6.1l-24.68 21c-.18.15-.37.29-.56.42a14 14 0 0 1-13.77 1c-18.36-8.87-36.66-27-45.53-45.19a14 14 0 0 1 .91-13.73a5 5 0 0 1 .43-.57l21.05-25.09a2 2 0 0 0 0-1.67L76.74 47.31A2 2 0 0 0 74.9 46h-.23A42.24 42.24 0 0 0 38 88c0 71.68 58.32 130 130 130a42.24 42.24 0 0 0 42-36.68"/></svg>
+                <div>
+                    <h2>Call Us</h2>
+                    <h3>+1 202-918-2132</h3>
+                </div>
+            </div>
+            <h2 class="font-semibold text-xl mt-7">Download App</h2>
+            <div class="flex gap-5 mt-3 max-sm:gap-2">
+                <img src="./img/image 11.png" alt="" class="w-40 max-lg:w-30 max-md:w-24">
+                <img src="./img/image 10.png" alt="" class="w-40 max-lg:w-30 max-md:w-24">
+            </div>
+        </div>
+        <div class="flex gap-20 max-lg:gap-10 max-md:flex-col max-md:mt-10">
+            <div>
+                <h1 class="text-xl font-[600]">Most Popular Categories</h1>
+                <div class="h-[3px] w-56 mt-4 rounded-2xl bg-white"></div>
+                <ul class="text-md mt-8 flex flex-col gap-3 list-disc pl-5">
+                    <li>Staples</li>
+                    <li>Beverages</li>
+                    <li>Personal Care</li>
+                    <li>Home Care</li>
+                    <li>Baby Care</li>
+                    <li>Vegetables & Food</li>
+                    <li>Snacks & Food</li>
+                    <li>Dairy & Bakery</li>
+                </ul>
+            </div>
+            <div>
+                <h1 class="text-xl font-[600]">Customer Services</h1>
+                <div class="h-[3px] w-42 mt-4 rounded-2xl bg-white"></div>
+                <ul class="text-md mt-8 flex flex-col gap-3 list-disc pl-5">
+                    <li>About Us</li>
+                    <li>Terms & Condition</li>
+                    <li>FAQ</li>
+                    <li>Privacy Policy</li>
+                    <li>E-waste Policy</li>
+                    <li>Cancellation & Return Policy</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="absolute left-30 top-130 flex flex-col items-center max-2xl:top-127 max-2xl:pl-13 max-2xl:pr-13 max-2xl:left-0 max-2xl:bg-[#008ECC] max-xl:top-116 max-lg:top-110 max-md:top-300">
+        <div class="h-[1px] bg-[#05ABF3] w-[1251px] max-2xl:w-[1380px] max-xl:w-[1096px] max-lg:w-[796px] max-md:w-[496px] max-sm:w-[196px]"></div>
+        <h6 class="text-xl font-[400] my-5 max-lg:text-sm max-sm:text-[9px]">© 2022 All rights reserved. Reliance Retail Ltd.</h6>
+    </div>
+    </div>
+    <!--footer-->
+</body>
+</html>

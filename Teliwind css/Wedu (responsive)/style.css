@@ -1,0 +1,26 @@
+*{
+    scroll-behavior: smooth;
+  }
+  .font{
+      font-family: "Space Grotesk", serif;
+  }
+  .li{
+      transition: all .5s;
+  }
+  .get{
+      transition: all .5s;
+  }
+  .software{
+      clip-path: polygon(0 0, 100% 12%, 100% 100%, 0% 100%);
+  }
+  .trusted{
+      clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+  }
+  .img:hover{
+      transform: scale(1.1);
+      transition: all .5s;
+  }
+  .msg:hover{
+      transform: scale(1.1);
+      transition: all .5s;
+  }

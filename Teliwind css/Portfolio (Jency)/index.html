@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--style-->
+    <style>
+      *{
+          scroll-behavior: smooth;
+      }
+      .skill:hover{
+        transition: all .5s;
+        background-color: #F5CC6D;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+      .my:hover{
+        transition: all .5s;
+        background-color: #3D3E42;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+      .work:hover{
+        transition: all .5s;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+      .contact:hover{
+        transition: all .5s;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+      .about h1{
+        transition: all .5s;
+      }
+      .my-skill h1{
+        transition: all .5s;
+      }
+      .works h1{
+        transition: all .5s;
+      }
+      button:hover{
+        transition: all 1s;
+      }
+    </style>
+  <!--style-->
+</head>
+<body>
+    <!--hero section-->
+    <div class="hero bg-[#34353A] max-sm:w-[570px]">
+        <!--nav-->
+        <nav class="px-30 flex justify-between items-center text-[#9B9C9D] max-sm:flex max-sm:justify-between max-sm:px-10 max-md:flex max-md:justify-between max-md:px-7">
+            <img src="./img/logo.png" alt="" class="w-20 h-20">
+            <div>
+                <ul class="flex gap-15 text-xl max-sm:hidden max-md:hidden">
+                    <li class="text-white hover:text-[#F5CC6D] hover:scale-110"><a href="#Home">Home</a></li>
+                    <li class="hover:text-[#F5CC6D] hover:scale-110"><a href="#About">About</a></li>
+                    <li class="hover:text-[#F5CC6D] hover:scale-110"><a href="#Skills">Skills</a></li>
+                    <li class="hover:text-[#F5CC6D] hover:scale-110"><a href="#Work">Work</a></li>
+                    <li class="hover:text-[#F5CC6D] hover:scale-110"><a href="#Contact">Contact</a></li>
+                </ul>
+                <div class="invisible max-sm:visible max-sm:text-[30px] max-md:visible"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></div>
+            </div>
+        </nav>
+        <!--nav-->
+
+        <!--home-->
+        <div class="px-30 flex gap-90 max-sm:flex-col max-sm:flex max-sm:flex-col-reverse max-sm:px-2 max-sm:gap-3 max-md:px-1 max-md:flex max-md:flex-col-reverse max-lg:px-10 max-lg:flex max-lg:flex-col-reverse id="Home">
+            <div class="flex flex-col justify-center pl-20 max-sm:pl-5 max-sm:mt-0 max-md:pl-10 max-lg:pl-0">
+                <h3 class="text-white text-7xl mt-20 max-sm:text-[40px]">Hello,</h3>
+                <h1 class="text-white text-6xl py-8">I'm <span class="text-[#F5CC6D] font-bold text-4xl text-7xl px-2">JENSI</span></h1>
+                <h2 class="text-white text-6xl">Web Developer</h2>
+                <a href="#Contact" class="my-20"><button class="button cursor-pointer text-[#F5CC6D] text-2xl font-semibold border-4 rounded-2xl py-2 px-3 hover:scale-110">Contact Me</button></a>
+            </div>
+            <div class="flex justify-center items-center max-sm:mt-15">
+                <img src="./img/cartoon.png" alt="" class="w-80">
+            </div>
+        </div>
+        <!--home-->
+    </div>
+    <!--hero section-->
+
+    <!--about-->
+    <div class="about bg-[#31333B] px-30 pt-35 text-white max-sm:w-[570px] max-sm:px-5 max-sm:pt-10 max-md:pl-5 max-md:px-5 max-lg:px-8" id="About">
+        <h1 class="text-5xl font-bold cursor-pointer hover:translate-y-[-10px] hover:text-[#F5CC6D]">About</h1>      
+        <div class="flex gap-3">
+            <div class="w-70 h-1 mt-13 rounded-full bg-[#F5CC6D]"></div>
+            <p class="mt-10 text-xl">As a passionate web designer, we craft visually stunning and user-friendly websites that not only capture your brand identity but also deliver a seamless experience for your audience.With a keen eye for design aesthetics and deep understanding of user experience, we collaborate closely with you to create a bespoke online presence that aligns perfectly with your business goals. <span class="text-[#F5CC6D]">Website developers</span> and website designers both create websites, but they have distinct roles in the process. A developer uses coding languages to create the framework of a website. They build the structure and then turn the site over to a designer to beautify it.</p>
+        </div>  
+    </div>
+    <!--about-->
+
+    <!--skills-->
+    <div class="my-skill bg-[#31333B] px-30 py-30 text-white text-center max-sm:w-[570px] max-sm:px-0 max-md:px-0 max-lg:px-2" id="Skills">
+        <h1 class="text-5xl font-bold cursor-pointer hover:translate-y-[-10px] hover:text-[#F5CC6D]">My Skills</h1>  
+        <div class="flex flex-wrap gap-20 justify-center mt-20">
+            <div class="skill bg-[#3D3E42] w-70 h-70 font-semibold rounded-2xl text-2xl flex flex-col justify-center items-center hover:text-black hover:translate-y-[-10px]">
+                <img src="./img/html.png" alt="" class="w-70">
+                HTML
+            </div>
+            <div class="my bg-[#F5CC6D] text-black font-semibold w-70 h-70 rounded-2xl text-2xl flex flex-col justify-center items-center hover:text-white hover:translate-y-[-10px]">
+                <img src="./img/css.png" alt="" class="w-50">
+                CSS
+            </div>
+            <div class="skill bg-[#3D3E42] w-70 h-70 font-semibold rounded-2xl text-2xl flex flex-col justify-center items-center hover:text-black hover:translate-y-[-10px]">
+                <img src="./img/tailwind css.png" alt="" class="w-50">
+                Tailwind CSS
+            </div>
+            <div class="skill bg-[#3D3E42] w-70 h-70 font-semibold rounded-2xl text-2xl flex flex-col gap-8 justify-center items-center hover:text-black hover:translate-y-[-10px]">
+                <img src="./img/bootstrap.png" alt="" class="w-46">
+                Bootstrap
+            </div>
+        </div>    
+    </div>
+    <!--skills-->
+
+    <!--work-->
+    <div class="works bg-[#31333B] px-30 pb-40 text-white text-center max-sm:w-[570px] max-sm:px-0 max-lg:px-2" id="Work">
+        <h1 class="text-5xl font-bold cursor-pointer hover:translate-y-[-10px] hover:text-[#F5CC6D]">Work</h1>  
+        <div class="flex flex-wrap gap-9 mt-15 justify-center">
+            <div class="work hover:translate-y-[-10px] bg-[#3D3E42] w-100 rounded-2xl flex flex-col items-center justify-start">
+                <img src="./img/airbnb.png" alt="" class="rounded-t-2xl">
+                <h2 class="pt-3 text-2xl font-semibold">Airbnb Clone</h2>
+                <div class="flex gap-5 text-lg text-[#F5CC6D] py-5">
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/airbnb/style.css">Get Code</a><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#F5CC6D" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></button>
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/airbnb/index.html">Live Demo</a><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="#F5CC6D" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M28 6h14v14m0 9.474V39a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h9m7.8 16.2L41.1 6.9"/></svg></button>
+                </div>
+            </div>
+            <div class="work hover:translate-y-[-10px] bg-[#3D3E42] w-100 rounded-2xl flex flex-col items-center justify-start">
+                <img src="./img/apple.png" alt="" class="rounded-t-2xl">
+                <h2 class="pt-5 text-2xl font-semibold">Apple Clone</h2>
+                <div class="flex gap-5 text-lg text-[#F5CC6D] py-5">
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/Apple/style.css">Get Code</a><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#F5CC6D" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></button>
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/Apple/index.html">Live Demo</a><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="#F5CC6D" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M28 6h14v14m0 9.474V39a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h9m7.8 16.2L41.1 6.9"/></svg></button>
+                </div>
+            </div>
+            <div class="work hover:translate-y-[-10px] bg-[#3D3E42] w-100 rounded-2xl flex flex-col items-center justify-start">
+                <img src="./img/DC.com.png" alt="" class="rounded-t-2xl">
+                <h2 class="pt-3 text-2xl font-semibold">DC.com Clone</h2>
+                <div class="flex gap-5 text-lg text-[#F5CC6D] py-5">
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/DC.com/style.css">Get Code</a><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#F5CC6D" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></button>
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/DC.com/index.html">Live Demo</a><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="#F5CC6D" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M28 6h14v14m0 9.474V39a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h9m7.8 16.2L41.1 6.9"/></svg></button>
+                </div>
+            </div>
+            <div class="work hover:translate-y-[-10px] bg-[#3D3E42] w-100 rounded-2xl flex flex-col items-center justify-start">
+                <img src="./img/e-scooter.png" alt="" class="rounded-t-2xl">
+                <h2 class="pt-3 text-2xl font-semibold">E-Scooter Clone</h2>
+                <div class="flex gap-5 text-lg text-[#F5CC6D] py-5">
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/E-scooter (resonsive)">Get Code</a><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#F5CC6D" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></button>
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/E-scooter (resonsive)/index.html">Live Demo</a><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="#F5CC6D" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M28 6h14v14m0 9.474V39a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h9m7.8 16.2L41.1 6.9"/></svg></button>
+                </div>
+            </div>
+            <div class="work hover:translate-y-[-10px] bg-[#3D3E42] w-100 rounded-2xl flex flex-col items-center justify-start">
+                <img src="./img/blinkit.png" alt="" class="rounded-t-2xl">
+                <h2 class="pt-3 text-2xl font-semibold">Blinkit Clone</h2>
+                <div class="flex gap-5 text-lg text-[#F5CC6D] py-5">
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/Blinkit/style.css">Get Code</a><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#F5CC6D" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></button>
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/Blinkit/index.html">Live Demo</a><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="#F5CC6D" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M28 6h14v14m0 9.474V39a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h9m7.8 16.2L41.1 6.9"/></svg></button>
+                </div>
+            </div>
+            <div class="work hover:translate-y-[-10px] bg-[#3D3E42] w-100 rounded-2xl flex flex-col items-center justify-start">
+                <img src="./img/e-shop.png" alt="" class="rounded-t-2xl">
+                <h2 class="pt-3 text-2xl font-semibold">E-Shop Clone</h2>
+                <div class="flex gap-5 text-lg text-[#F5CC6D] py-5">
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/E-Shop/style.css">Get Code</a><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#F5CC6D" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></button>
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/E-Shop/index.html">Live Demo</a><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="#F5CC6D" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M28 6h14v14m0 9.474V39a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h9m7.8 16.2L41.1 6.9"/></svg></button>
+                </div>
+            </div>
+            <div class="work hover:translate-y-[-10px] bg-[#3D3E42] w-100 rounded-2xl flex flex-col items-center justify-start">
+                <img src="./img/flower.png" alt="" class="rounded-t-2xl">
+                <h2 class="pt-3 text-2xl font-semibold">Flower Clone</h2>
+                <div class="flex gap-5 text-lg text-[#F5CC6D] py-5">
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/Flower/style.css">Get Code</a><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#F5CC6D" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></button>
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/Flower/index.html">Live Demo</a><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="#F5CC6D" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M28 6h14v14m0 9.474V39a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h9m7.8 16.2L41.1 6.9"/></svg></button>
+                </div>
+            </div>
+            <div class="work hover:translate-y-[-10px] bg-[#3D3E42] w-100 rounded-2xl flex flex-col items-center justify-start">
+                <img src="./img/food.png" alt="" class="rounded-t-2xl">
+                <h2 class="pt-3 text-2xl font-semibold">Food Clone</h2>
+                <div class="flex gap-5 text-lg text-[#F5CC6D] py-5">
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/Food/style.css">Get Code</a><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#F5CC6D" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></button>
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/Food/index.html">Live Demo</a><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="#F5CC6D" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M28 6h14v14m0 9.474V39a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h9m7.8 16.2L41.1 6.9"/></svg></button>
+                </div>
+            </div>
+            <div class="work hover:translate-y-[-10px] bg-[#3D3E42] w-100 rounded-2xl flex flex-col items-center justify-start">
+                <img src="./img/mahindra.png" alt="" class="rounded-t-2xl">
+                <h2 class="pt-3 text-2xl font-semibold">Mahindra Clone</h2>
+                <div class="flex gap-5 text-lg text-[#F5CC6D] py-5">
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/Mahindra/style.css">Get Code</a><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#F5CC6D" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></button>
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/Mahindra/index.html">Live Demo</a><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="#F5CC6D" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M28 6h14v14m0 9.474V39a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h9m7.8 16.2L41.1 6.9"/></svg></button>
+                </div>
+            </div>
+            <div class="work hover:translate-y-[-10px] bg-[#3D3E42] w-100 rounded-2xl flex flex-col items-center justify-start">
+                <img src="./img/spotify.png" alt="" class="rounded-t-2xl">
+                <h2 class="pt-3 text-2xl font-semibold">Spotify Clone</h2>
+                <div class="flex gap-5 text-lg text-[#F5CC6D] py-5">
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/Project (spotify)/style.css">Get Code</a><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#F5CC6D" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></button>
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/Project (spotify)/index.html">Live Demo</a><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="#F5CC6D" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M28 6h14v14m0 9.474V39a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h9m7.8 16.2L41.1 6.9"/></svg></button>
+                </div>
+            </div>
+            <div class="work hover:translate-y-[-10px] bg-[#3D3E42] w-100 rounded-2xl flex flex-col items-center justify-start">
+                <img src="./img/starbucks.png" alt="" class="rounded-t-2xl">
+                <h2 class="pt-3 text-2xl font-semibold">Starbucks Clone</h2>
+                <div class="flex gap-5 text-lg text-[#F5CC6D] py-5">
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/Starbucks/">Get Code</a><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#F5CC6D" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></button>
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/Starbucks/index.html">Live Demo</a><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="#F5CC6D" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M28 6h14v14m0 9.474V39a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h9m7.8 16.2L41.1 6.9"/></svg></button>
+                </div>
+            </div>
+            <div class="work hover:translate-y-[-10px] bg-[#3D3E42] w-100 rounded-2xl flex flex-col items-center justify-start">
+                <img src="./img/swiggy.png" alt="" class="rounded-t-2xl">
+                <h2 class="pt-3 text-2xl font-semibold">Swigy Instamart Clone</h2>
+                <div class="flex gap-5 text-lg text-[#F5CC6D] py-5">
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/Swiggy instamart/style.css">Get Code</a><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#F5CC6D" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></button>
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/Swiggy instamart/index.html">Live Demo</a><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="#F5CC6D" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M28 6h14v14m0 9.474V39a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h9m7.8 16.2L41.1 6.9"/></svg></button>
+                </div>
+            </div>
+            <div class="work hover:translate-y-[-10px] bg-[#3D3E42] w-100 rounded-2xl flex flex-col items-center justify-start">
+                <img src="./img/zee5.png" alt="" class="rounded-t-2xl">
+                <h2 class="pt-3 text-2xl font-semibold">ZEE5 Clone</h2>
+                <div class="flex gap-5 text-lg text-[#F5CC6D] py-5">
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/ZEE5/style.css">Get Code</a><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#F5CC6D" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></button>
+                    <button class="flex items-center gap-3 py-1 px-2 border-2"><a target="_blank" href="./Website/ZEE5/index.html">Live Demo</a><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="#F5CC6D" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M28 6h14v14m0 9.474V39a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h9m7.8 16.2L41.1 6.9"/></svg></button>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <!--work-->
+
+    <!--contact-->
+    <div class="bg-[#3D3E42] text-white text-center mb-10 cursor-pointer max-sm:w-[570px] id="Contact">
+        <div class="flex gap-5">
+            <div class="w-152 h-1 bg-[#F5CC6D] mt-[-1.5px]"></div>
+            <h1 class="text-5xl font-bold mt-[-32px]">Contact Me</h1>  
+            <div class="w-152 h-1 bg-[#F5CC6D] mt-[-1.5px]"></div>
+        </div>
+        <div class="flex flex-wrap px-70 gap-10 py-25 justify-center text-[#F5CC6D] text-2xl">
+            <div class="contact py-3 px-8 rounded-lg bg-[#31333B] flex justify-center items-center gap-8 hover:translate-y-[-10px]"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#fff" d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zM20 8l-7.475 4.675q-.125.075-.262.113t-.263.037t-.262-.037t-.263-.113L4 8v10h16zm-8 3l8-5H4zM4 8v.25v-1.475v.025V6v.8v-.012V8.25zv10z"/></svg>jencyp625@gmail.com</div>
+            <div class="contact py-3 px-8 rounded-lg bg-[#31333B] flex justify-center items-center gap-6 hover:translate-y-[-10px]"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1.5" d="M7.829 16.171a20.9 20.9 0 0 1-4.846-7.614c-.573-1.564-.048-3.282 1.13-4.46l.729-.728a2.11 2.11 0 0 1 2.987 0l1.707 1.707a2.11 2.11 0 0 1 0 2.987l-.42.42a1.81 1.81 0 0 0 0 2.56l3.84 3.841a1.81 1.81 0 0 0 2.56 0l.421-.42a2.11 2.11 0 0 1 2.987 0l1.707 1.707a2.11 2.11 0 0 1 0 2.987l-.728.728c-1.178 1.179-2.896 1.704-4.46 1.131a20.9 20.9 0 0 1-7.614-4.846Z"/></svg>+91 8128144211</div>
+            <div class="contact py-3 px-8 rounded-lg bg-[#31333B] flex justify-center items-center gap-5 hover:translate-y-[-10px]"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"><g fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"><path d="M13 9a1 1 0 1 1-2 0a1 1 0 0 1 2 0Z"/><path d="M17.5 9.5c0 3.038-2 6.5-5.5 10.5c-3.5-4-5.5-7.462-5.5-10.5a5.5 5.5 0 1 1 11 0Z"/></g></svg>Rajkot, Gujarat</div>
+        </div>
+        <div class="flex gap-5 items-center">
+            <div class="w-165 h-1 bg-[#F5CC6D]"></div>
+            <div class="flex gap-3 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#fff" d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#fff" d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.2 4.2 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.52 8.52 0 0 1-5.33 1.84q-.51 0-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#fff" d="M6.94 5a2 2 0 1 1-4-.002a2 2 0 0 1 4 .002M7 8.48H3V21h4zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#fff" d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01m-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18l-3.12.82l.83-3.04l-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24c2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23m4.52-6.16c-.25-.12-1.47-.72-1.69-.81c-.23-.08-.39-.12-.56.12c-.17.25-.64.81-.78.97c-.14.17-.29.19-.54.06c-.25-.12-1.05-.39-1.99-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.14-.25-.02-.38.11-.51c.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31c-.22.25-.86.85-.86 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.23 3.74c.59.26 1.05.41 1.41.52c.59.19 1.13.16 1.56.1c.48-.07 1.47-.6 1.67-1.18c.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28"/></svg>
+            </div> 
+            <div class="w-165 h-1 bg-[#F5CC6D]"></div>
+        </div>
+    </div>
+    <!--contact-->
+
+    <!--thanks-->
+    <div class="bg-[#31333B] py-15 mt-[-41px] flex justify-center items-center max-sm:w-[570px]">
+        <h1 class="text-white mt-5 text-4xl font-semibold hover:text-[#F5CC6D] hover:translate-y-[-10px]">"Thanks for Scrolling"</h1>
+    </div>
+    <!--thanks-->
+</body>
+</html>
